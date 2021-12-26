@@ -1,0 +1,64 @@
+body{
+    background-color: #F2FFE9;
+}
+
+.seats{
+    font-size: 20px;
+}
+h1{
+    font-family: 'Pushster', cursive;
+    padding-bottom: 10px;
+}
+select{
+    width: 60px;
+}
+img{
+    border-radius: 50%;
+    padding: 20px;
+}
+label{
+    float: right;
+}
+#btnsub{
+    float: right;
+}
+
+.container{
+    width: 100%;
+}
+
+#imgtd{
+    width: 100px;
+}
+
+#formtd{
+   float: left;;
+}
+
+@media screen and (max-width:500px) {
+
+label{
+    font-size: smaller;
+    font: weight 300px;;
+}
+
+#form{
+    width: 90px;
+    
+}
+button{
+    width: 100px;
+    align-items: center;
+}
+
+}
+
+@media screen and ( min-width:1000px) {
+
+#container-img{
+position: relative;
+left:80px;
+
+}
+
+}
